@@ -1,0 +1,6 @@
+npm install -g node-pre-gyp
+npm install --global @ceramicnetwork/cli @glazed/cli
+ceramic daemon
+glaze did:create
+glaze tile:create --key ab...f0 --content '{"Foo":"Bar"}'
+glaze tile:update kjzl6cwe1jw147ww5d8pswh1hjh686mut8v1br10dar8l9a3n1wf8z38l0bg8qa --key ab...f0 --content '{"Foo":"Baz"}'
